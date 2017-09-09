@@ -96,3 +96,6 @@ http://www.osyunwei.com/archives/7829.html
 
 # 从零开始 LaTeX 快速入门
 - http://liuchengxu.org/blog-cn/posts/quick-latex/
+
+# TexLive + TexStudio windows安装指南
+- http://www.jianshu.com/p/0fa198430c7e
