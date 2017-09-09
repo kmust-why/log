@@ -94,8 +94,5 @@ http://www.osyunwei.com/archives/7829.html
 # Python 3.5.2 - PyQt5 - eric6安装指南 #
 - http://jingyan.baidu.com/article/9113f81b6fd5cd2b3214c7c2.html
 
-# TexLive + TexStudio windows安装指南
-- http://www.jianshu.com/p/0fa198430c7e
-
 # 从零开始 LaTeX 快速入门
 - http://liuchengxu.org/blog-cn/posts/quick-latex/
