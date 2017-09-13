@@ -99,3 +99,6 @@ http://www.osyunwei.com/archives/7829.html
 
 # TexLive + TexStudio windows安装指南
 - http://www.jianshu.com/p/0fa198430c7e
+
+# Texlive和Texmaker学习
+- http://blog.csdn.net/zb1165048017/article/details/52785177
