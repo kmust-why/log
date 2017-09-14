@@ -1,6 +1,4 @@
 # log
-用于记录自己的log信息
-
 # python一译中文文档 #
 - http://python.usyiyi.cn/
 
@@ -102,3 +100,123 @@ http://www.osyunwei.com/archives/7829.html
 
 # Texlive和Texmaker学习
 - http://blog.csdn.net/zb1165048017/article/details/52785177
+
+# python，向已经存在数据的excel中添加数据
+
+- http://www.cnblogs.com/pangwanzi/p/6475871.html
+
+# Python读写/追加excel文件Demo      
+-http://blog.csdn.net/qq_30242609/article/details/68953172
+
+# Python：文件的读取、创建、追加、删除、清空
+
+- http://www.open-open.com/lib/view/open1413527388231.html
+
+# python中使用xlrd、xlwt操作excel表格详解
+- http://www.jb51.net/article/60510.htm
+
+# 在网页上实现实时动态曲线——利用Highcharts控件和JQuery
+-http://blog.csdn.net/nuaazdh/article/details/6754928
+
+# EasyUI 自定义分页
+- http://www.jeasyui.net/tutorial/35.html
+
+# EasyUI Portal（制作图表、列表、球形图等）
+- http://www.jeasyui.net/extension/106.html
+
+# stm32 TIM1PWM多通道捕获模式测速        
+- http://blog.csdn.net/liucheng5037/article/details/50413726
+
+#  详解OPC协议－工业控制和自动化领域的接口标准
+- http://blog.csdn.net/liusaoyue/article/details/5108210            
+
+
+基于STM32单片机的万年历毕业设计论文
+
+https://max.book118.com/html/2015/0512/16833749.shtm
+
+# Altium Designer生成Gerber文件的设置(嘉立创建议 )
+
+http://home.eeworld.com.cn/my/space-uid-139703-blogid-119336.html
+
+# Win7装不上Office2010 提示MSXML 6.10.1129.0
+
+https://zhidao.baidu.com/question/454740112727209885.html
+
+# OA办公系统普通用户使用手册
+
+https://wenku.baidu.com/view/21ee39fe01f69e314232947c.html?qq-pf-to=pcqq.group
+
+# PCB板图设计的基本原则要求
+
+http://www.hch518.com/Article/PCBbantushejidejiben_1.html
+
+# PCB板设计的简明规则 
+-http://blog.csdn.net/kissmonx/article/details/8053592
+
+# python serial模块
+- http://blog.csdn.net/maoyongfan3/article/details/43309391
+
+# 使用Jquery+EasyUI 进行框架项目开发案例讲解之一员工管理源码分享    
+
+- http://www.cnblogs.com/huyong/p/3334848.html                       
+
+## python之matplotlib学习(三) 画动态更新图 
+
+- http://blog.csdn.net/kkxgx/article/details/6857112
+
+## 利用python在网站上实现实时画弧度和圆
+
+- http://blog.sina.com.cn/s/blog_64559fb40102wsqe.html
+
+## Python 图形界面（GUI）设计
+
+- http://www.cnblogs.com/pied/p/4373600.html
+
+# Python | PySide 安装
+
+- http://jingyan.baidu.com/article/09ea3ede1cbaf1c0aede39de.html
+
+## 使用PyQt来编写第一个Python GUI程序
+
+- http://blog.csdn.net/wuxiaobingandbob/article/details/53167674
+
+## Python PyQt5在Windows平台安装
+
+- http://blog.csdn.net/youngwhz1/article/details/51178104
+
+## pyQt4 安装
+
+- http://blog.csdn.net/lainegates/article/details/8656102
+
+### PyQt5的安装要和Python的版本对应起来
+
+- http://www.w2bc.com/article/219224
+
+## 用 eric6 与 PyQt5 实现python的极速GUI编程（35篇PyQT和200多篇Python）
+
+- http://www.cnblogs.com/findumars/p/6357315.html
+
+# 使用PyQt来编写第一个Python GUI程序
+
+- http://python.jobbole.com/81276/
+
+## **朱有鹏**给你分享了文件
+
+- https://eyun.baidu.com/enterprise/share/init?cid=8272060746427218340&uk=672611650&sid=201610218964618146&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0
+
+## CentOS7安装和配置FTP
+
+- http://blog.csdn.net/the_victory/article/details/52192085
+
+# CentOS 7 搭建ftp服务器
+
+- http://www.linuxidc.com/Linux/2015-06/118494.htm
+
+## CentOS 7 vsftpd 安装配置详解
+
+- http://blog.chinaunix.net/uid-25530360-id-5752487.html
+
+# PostgreSQL开发入门
+
+- http://blog.csdn.net/zm_21/article/details/19486869
