@@ -1,0 +1,77 @@
+% LaTex文档的基本结构、编译和调试、命令符号的输入（如%，{..}等等）
+\documentclass{book} %book,report,letter
+% 在\documentclass{artical}和begin{document}之间的部分被称为导盲区
+%\usepackage{amsmath} %宏包，美国数学协会
+\usepackage{enumerate}
+
+\begin{document}
+% 正文部分
+\begin{itemize}
+	\item this is item1
+	\begin{itemize}
+		\item this is item1
+		\begin{itemize}
+			\item this is item1
+			\begin{itemize}
+				\item this is item1
+				\item this is item2
+				\item this is item3
+			\end{itemize}
+			\item this is item2
+			\item this is item3
+		\end{itemize}
+		\item this is item2
+		\item this is item3
+	\end{itemize}
+	\item this is item2
+	\item this is item3
+\end{itemize}
+
+\begin{enumerate}
+	\item this is item1
+	\begin{enumerate}
+		\item this is item1
+		\begin{enumerate}
+			\item this is item1
+			\item this is item2
+			\item this is item3 
+		\end{enumerate}
+		\item this is item2
+		\item this is item3 
+	\end{enumerate}
+	\item this is item2
+	\item this is item3 
+\end{enumerate}
+
+\begin{enumerate}[\bfseries A.]
+\setcounter{enumi}{4}
+	\item this is item1
+	\begin{enumerate}[\sffamily a.]
+		\item this is item1
+		\begin{enumerate}[i.]
+			\item this is item1
+			\item this is item2
+			\item this is item3 
+		\end{enumerate}
+		\item this is item2
+		\item this is item3 
+	\end{enumerate}
+	\item this is item2
+	\item this is item3 
+\end{enumerate}
+
+\begin{tabular}{clr}
+223&112&333\\
+23&12&33\\
+\end{tabular}
+
+\begin{tabular}{|c|l|r|}
+\hline
+223&112&333\\
+\hline
+23&12&33\\
+\hline
+\end{tabular}
+
+\end{document}
+
