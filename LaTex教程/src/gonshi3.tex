@@ -1,0 +1,53 @@
+% LaTex文档的基本结构、编译和调试、命令符号的输入（如%，{..}等等）
+\documentclass{book} %book,report,letter
+% 在\documentclass{artical}和begin{document}之间的部分被称为导盲区
+\usepackage{amsmath} %宏包，美国数学协会
+\usepackage{mathrsfs}
+\usepackage{arydshln}
+
+\begin{document}
+% 正文部分
+\begin{equation}
+\begin{split}
+z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+  &= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+   &= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}\\
+\end{split}
+\end{equation}
+
+\begin{align}
+	z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+	&= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+	&= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{align}
+
+\begin{align}
+z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\nonumber\\
+&= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+&= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{align}
+
+\begin{equation}
+\begin{gathered}
+z = {\left( {a + b} \right)^4}\\ 
+z = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+z = \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+z = {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{gathered}
+\end{equation}
+
+\begin{eqnarray}
+z &=& {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\nonumber\\
+&=& \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+&=& {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{eqnarray}
+
+Function:
+
+$$I_A(a)=\begin{cases}
+	1&a\in A\\
+	0&a\not\in A
+\end{cases}$$
+
+\end{document}
+

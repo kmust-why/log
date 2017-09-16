@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.14)  16 SEP 2017 10:34
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.14)  16 SEP 2017 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./book.tex
-(./book.tex
+**./gonshi2.tex
+(./gonshi2.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/2017/texmf-dist/tex/latex/base/book.cls
@@ -85,8 +85,31 @@ LaTeX Info: Redefining \] on input line 2818.
 (c:/texlive/2017/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
-) (./book.aux)
-\openout1 = `book.aux'.
+)
+(c:/texlive/2017/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2016/04/28 v1.73 
+\dashlinedash=\dimen112
+\dashlinegap=\dimen113
+\adl@box=\box28
+\adl@height=\dimen114
+\adl@heightsave=\dimen115
+\adl@depth=\dimen116
+\adl@depthsave=\dimen117
+\adl@finaldepth=\dimen118
+\adl@columns=\count100
+\adl@ncol=\count101
+\adl@currentcolumn=\count102
+\adl@currentcolumnsave=\count103
+\adl@totalheight=\count104
+\adl@totalheightsave=\count105
+\adl@dash=\count106
+\adl@gap=\count107
+\adl@cla=\count108
+\adl@clb=\count109
+\adl@everyvbox=\toks19
+\adl@LTpagetotal=\dimen119
+) (./gonshi2.aux)
+\openout1 = `gonshi2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -102,67 +125,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 15.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 10.
 
 (c:/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-
-] [2
-
-] (./book.toc)
-\tf@toc=\write3
-\openout3 = `book.toc'.
-
-
-[3] [4
-
-] [1
-
-] [2]
-Chapter 1.
-
-Overfull \hbox (2.76004pt too wide) in paragraph at lines 42--44
-\TU/lmr/m/n/10 Hello World.Hello World.Hello World.Hello World.Hello World.Hell
-o World.Hello
- []
-
-
-Overfull \hbox (32.25005pt too wide) in paragraph at lines 42--44
-\TU/lmr/m/n/10 World.Hello World.Hello World.Hello World.Hello World.Hello Worl
-d.Hello World.Hello
- []
-
-[3
-
-] [4
-
-] [5] [6]
-Chapter 2.
-[7
-
-] [8
-
-]
-Chapter 3.
-! Undefined control sequence.
-l.72 \[\mathtop
-               {{\rm abcd}}^a_b\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[9] (./book.aux) ) 
+] (./gonshi2.aux) ) 
 Here is how much of TeX's memory you used:
- 921 strings out of 493005
- 10833 string characters out of 6137956
- 74292 words of memory out of 5000000
- 4924 multiletter control sequences out of 15000+600000
- 8589 words of font info for 46 fonts, out of 8000000 for 9000
+ 1071 strings out of 493005
+ 12641 string characters out of 6137956
+ 80654 words of memory out of 5000000
+ 5095 multiletter control sequences out of 15000+600000
+ 4605 words of font info for 21 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 27i,6n,20p,241b,186s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,20p,226b,165s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on book.pdf (13 pages).
+Output written on gonshi2.pdf (1 page).

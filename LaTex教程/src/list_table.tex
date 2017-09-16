@@ -3,7 +3,7 @@
 % 在\documentclass{artical}和begin{document}之间的部分被称为导盲区
 %\usepackage{amsmath} %宏包，美国数学协会
 \usepackage{enumerate}
-
+\usepackage{longtable} %长表格
 \begin{document}
 % 正文部分
 \begin{itemize}
@@ -72,6 +72,36 @@
 23&12&33\\
 \hline
 \end{tabular}
+
+
+
+\begin{tabular}{ccc}
+\hline
+223&112&333\\
+\hline
+23&12&33\\
+23&12&33\\
+23&12&33\\
+23&12&33\\
+\hline
+\end{tabular}
+
+\begin{table}
+	\centering
+
+	\caption{this is my table}
+\begin{tabular}{ccc}
+\hline
+\multicolumn{2}{c}{222}&333\\
+\hline
+23&12&33\\
+\cline{2-3}
+23&12&33\\
+23&12&33\\
+23&12&33\\
+\hline
+\end{tabular}
+\end{table}
 
 \end{document}
 

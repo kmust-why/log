@@ -177,4 +177,266 @@ $\backslash$
 \end{tabular}
 ```
 
-7. 从Excel文件中导入数据到latex中
+7. 从Excel文件中导入数据到latex中：（只需要拷贝Excel文件中的内容，然后改成相应的格式即可）
+8. 制作三线表
+
+```latex
+\begin{tabular}{ccc}
+\hline
+223&112&333\\
+\hline
+23&12&33\\
+23&12&33\\
+23&12&33\\
+23&12&33\\
+\hline
+\end{tabular}
+```
+
+9. 使用带表名的表格：（其中使用的是table环境，\\centering表示元素居中对齐，\caption{this is my table}表示设置表格的表名）
+
+```latex
+\begin{table}
+	\centering
+	\caption{this is my table}
+	\begin{tabular}{ccc}
+		\hline
+		223&112&333\\
+		\hline
+		23&12&33\\
+		23&12&33\\
+		23&12&33\\
+		23&12&33\\
+		\hline
+	\end{tabular}
+\end{table}
+```
+
+10. 单元格合并：（第一个参数表示合并的单元格的数量，第二个参数表示合并后的单元格的对齐方式，第三个参数表示合并后的单元格里面的内容）
+
+    ```latex
+    \multicolumn{2}{c}{222}&333\\
+    ```
+
+11. 为单元格内地内容添加下划线：（表示在\cline{2-3}上面一行的单元格的第二个和第三个的下面加下划线）
+
+```latex
+23&12&33\\
+\cline{2-3}
+```
+
+12. 长表格可以引入新的宏包：longtable，用法跟table类似
+
+#### 数学公式编辑初步1：行间公式、行内公式、特殊符号的输入、数学字体、从mathtype粘贴代码、公式的编号
+
+1. 行间公式的引导方式：
+
+```
+\[a=c\]和$$a=c$$
+```
+
+2. 行内公式的引导方式：
+
+```
+$a=b+c$
+```
+
+3. 直接从mathtype粘贴代码：（首先需要安装mathtype数学公式编辑器软件）
+4. 为公式编号：
+
+```latex
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+```
+
+4. 让公式按照节的顺序来编号：
+
+```latex
+\numberwithin{equation}{section}
+```
+
+5. 在不改变公式编号的前提下给公式添加东西：
+
+```latex
+\begin{subequations}
+	\begin{equation}
+	\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+	\end{equation}
+	\begin{equation}
+	\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+	\end{equation}
+\end{subequations}
+```
+
+6. 为公式添加一个外壳：
+
+```latex
+\boxed{
+		\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+	}
+```
+
+6. 宏替换：（相当于C语言下的宏定义，原来的函数还是可以使用的）
+
+```latex
+\newcommand{\fc}{\frac} 相当于为\frac取了一个别名为\fc，\[\fc{1}{2}\]就等同于\[\frac{1}{2}\]
+```
+
+7. 对于算子来说，可以使用如下的命令：
+
+```
+\[\mathtop{{\rm abcd}}^a_b\]（有问题）
+```
+
+#### 数学公式编辑初步2：\left，\right，矩阵的输入，分块矩阵
+
+1. \\left和\\right用于修饰括号的：
+
+   ```latex
+   \[\mathop {\lim }\limits_{x \to \infty } {\left( {{\rm{1 + }}\frac{{\rm{1}}}{{\rm{n}}}} \right)^{\rm{n}}} = e\]
+   ```
+
+2. 矩阵的输入：（构造一个3*3的矩阵）
+
+```latex
+$$\begin{array}{clr}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{array}$$
+```
+
+3. 为矩阵增加小括号或者中括号：（还是使用\left和\right来实现，不建议手动输入公式，而是使用第三方的软件来输入比较方便，如mathtype）
+4. 矩阵的其他输入方式：
+
+```latex
+$$\begin{Bmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{Bmatrix}$$
+
+$$\begin{bmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{bmatrix}$$
+
+$$\begin{vmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{vmatrix}$$
+
+$$\begin{Vmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{Vmatrix}$$
+```
+
+其对应的显示效果如下：
+
+![矩阵输入方式](images/矩阵输入.png)
+
+5. 分块矩阵的操作：（实线，操作方法同表格的边框添加类似）
+
+```latex
+$$\left[\begin{array}{c|lr}
+1&2&3\\
+\hline
+4&5&6\\
+7&8&9\\
+\end{array}\right]$$
+```
+
+6. 生成带虚线的分块矩阵（使用宏包arydshln）推荐使用
+
+```latex
+{c|l;{4pt/2pt}r}其中的pt表示的是矩阵中的度量单位，这里表示竖线部分的实线的长度是虚线长度的2倍
+\hdashline[2pt/4pt] 表示横线的画法
+```
+
+#### 数学公式编辑初步1：公式的对齐方式
+
+1. 公式的对齐方式
+
+```latex
+\begin{equation}
+\begin{split}
+z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+  &= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+   &= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}\\
+\end{split}
+\end{equation}
+其中，&=表示以等号对齐，\\表示回车，但是该公式只有一个编号
+```
+
+2. 公式对齐的另外一种方法：
+
+```latex
+\begin{align}
+	z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+	&= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+	&= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}\\
+\end{align}
+其中，该种方法不需要依赖\begin{equation}，可以独立存在，并且可以有多个编号，并且如果不需要 其前面的编号的时候，可以去掉该编号，如下所示：
+\begin{align}
+z &= {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\nonumber\\
+&= \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+&= {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{align}
+```
+
+3. 把几个公式并列到一行
+
+```latex
+\begin{equation}
+\begin{gathered}
+z = {\left( {a + b} \right)^4}\\ 
+z = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\\
+z = \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+z = {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{gathered}
+\end{equation}
+其中，它们共用一个公式编号
+\begin{eqnarray}
+z &=& {\left( {a + b} \right)^4} = {\left( {a + b} \right)^2}{\left( {a + b} \right)^2}\nonumber\\
+&=& \left( {{a^{^2}} + 2ab + {b^2}} \right)\left( {{a^{^2}} + 2ab + {b^2}} \right)\\
+&=& {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^{^3}} + {b^4}
+\end{eqnarray}
+其中的这个使得=号的左右距离变大的一些
+```
+
+4. 分段函数：
+
+```latex
+Function:
+
+$$I_A(a)=\begin{cases}
+	1&a\in A\\
+	0&a\not\in A
+\end{cases}$$
+```
+
+#### 图片的插入、缩放、旋转等
+
+1. 在使用图片插入的时候，需要引出宏包graphics，然后才可以插入图片：
+
+```latex
+\includegraphics{pic1.jpg} 其中的参数为图片的地址
+```
+
+2. 通过\figure的方式来插入图片
+
+```latex
+\begin{figure}
+\centering
+	\includegraphics[scale=2,angle=30]{pic1.jpg}
+	\caption{this is a tu}
+\end{figure}
+其中，\centering表示图片居中，scale=2,angle=30表示将图片放大2倍并顺时针旋转30°，\caption{this is a tu}表示图片的名字
+```
+
+3. eps图片的生成方式，如matlab等

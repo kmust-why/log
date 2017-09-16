@@ -1,0 +1,49 @@
+% LaTex文档的基本结构、编译和调试、命令符号的输入（如%，{..}等等）
+\documentclass{book} %book,report,letter
+% 在\documentclass{artical}和begin{document}之间的部分被称为导盲区
+\usepackage{amsmath} %宏包，美国数学协会
+\usepackage{mathrsfs}
+\usepackage{arydshln}
+
+\begin{document}
+% 正文部分
+\[\mathop {\lim }\limits_{x \to \infty } {\left( {{\rm{1 + }}\frac{{\rm{1}}}{{\rm{n}}}} \right)^{\rm{n}}} = e\]
+$$\left[\begin{array}{c|l;{4pt/2pt}r}
+1&2&3\\
+\hline
+4&5&6\\
+\hdashline[2pt/4pt]
+7&8&9\\
+\end{array}\right]$$
+\[\left( {\begin{array}{*{20}{c}}
+	{{a_{11}}}&{{a_{12}}}&{{a_{13}}}\\
+	{{a_{21}}}&{{a_{22}}}&{{a_{23}}}\\
+	{{a_{31}}}&{{a_{32}}}&{{a_{33}}}
+	\end{array}} \right)\]
+
+$$\begin{Bmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{Bmatrix}$$
+
+$$\begin{bmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{bmatrix}$$
+
+$$\begin{vmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{vmatrix}$$
+
+$$\begin{Vmatrix}
+1&2&3\\
+4&5&6\\
+7&8&9\\
+\end{Vmatrix}$$
+
+\end{document}
+

@@ -2,10 +2,13 @@
 \documentclass{book} %book,report,letter
 % 在\documentclass{artical}和begin{document}之间的部分被称为导盲区
 \usepackage{amsmath} %宏包，美国数学协会
+\usepackage{mathrsfs}
+\newcommand{\fc}{\frac}
 
 \begin{document}
 % 正文部分
 \title{this is my book}
+\numberwithin{equation}{section}
 \author{wanghaiyun}
 \date{}
 
@@ -16,20 +19,56 @@
 
 \part{diyibufen}
 \chapter{diyizhang}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
 \section{diyijie}
 \subsection{I like latex}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
 \section{dierjie}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
 Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.Hello World.
-
+\begin{equation}
+\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
 \part{dierbufen}
 \chapter{dierzhang}
 \section{diyijie}
 \section{dierjie}
 
+\begin{subequations}
+	\begin{equation}
+	\boxed{
+		\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+	}
+	\end{equation}
+	\begin{equation}
+	\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+	\end{equation}
+\end{subequations}
+
 \chapter{disanzhang}
 \section{diyijie}
 \subsection{I like latex}
+
 \section{dierjie}
 \subsection{I like latex}
+\[\fc{1}{2}\]
+\[\sum^5_{i=1}i^2\]
+
+\[\mathtop{{\rm abcd}}^a_b\]
 \end{document}
 
