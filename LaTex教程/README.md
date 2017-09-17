@@ -214,9 +214,9 @@ $\backslash$
 
 10. 单元格合并：（第一个参数表示合并的单元格的数量，第二个参数表示合并后的单元格的对齐方式，第三个参数表示合并后的单元格里面的内容）
 
-    ```latex
-    \multicolumn{2}{c}{222}&333\\
-    ```
+  ```latex
+  \multicolumn{2}{c}{222}&333\\
+  ```
 
 11. 为单元格内地内容添加下划线：（表示在\cline{2-3}上面一行的单元格的第二个和第三个的下面加下划线）
 
@@ -285,7 +285,7 @@ $a=b+c$
 
 7. 对于算子来说，可以使用如下的命令：
 
-```
+```latex
 \[\mathtop{{\rm abcd}}^a_b\]（有问题）
 ```
 
@@ -440,3 +440,71 @@ $$I_A(a)=\begin{cases}
 ```
 
 3. eps图片的生成方式，如matlab等
+
+#### LaTex基础：
+
+- 源文件结构
+
+```latex
+\documentclass{article} %使用article文档类型格式排版
+\usepackage{amsmath} %调用公式宏包
+\usepackage{graphicx} %调用插图宏包
+... %调用其它宏包和设置命令
+\begin{document}
+论文内容
+\end{document}
+```
+
+- 中长篇论文（10-100页）
+
+```latex
+\documentclass{book} %使用article文档类型格式排版
+\usepackage{amsmath} %调用公式宏包
+\usepackage{graphicx} %调用插图宏包
+... %调用其它宏包和设置命令 
+\begin{document}
+\include{cover} %调入封面子源文件cover.tex
+\pagenumbering{Roman} %罗马数字页码
+\include{abstract} %调入摘要子源文件abstract.tex
+\pagenumbering{arabic} %阿拉伯数字页码
+\include{contents} %调入创建目录子源文件contents.tex
+\pagenumbering{arabic} %阿拉伯数字页码
+\include{chapter1} %调入第一章子源文件chapter1.tex
+\include{chapter1} %调入第二章子源文件chapter1.tex
+...
+\include{reference} %调入参考文献子源文件reference.tex
+\end{document}
+```
+
+- 文件名
+- 命令
+- 文档类型
+
+常用文档的用途和特点
+
+|  文类名   | 用途         | 特点                      |
+| :----: | ---------- | ----------------------- |
+| aticle | 短文、评论、学术论文 | 无左右页区分处理，无章设置           |
+|  book  | 专业著作、学位论文  | 默认有左右页区分处理，章起右页         |
+| report | 商业、科技和试验报告 | 默认无左右页区分处理，章起新页         |
+| beamer | 论文陈述幻灯片    | 提供多种主题样式，可方便地更改幻灯片的整体风格 |
+
+- 宏包
+- 模式
+
+  - 左右模式
+  - 段落模式
+  - 数学模式
+- 符号
+  - 专用符号
+  - 文本符号
+  - 数学符号
+- 长度设置
+  - 长度单位
+  - 长度命令
+- 盒子
+- 计数器
+  - 计数器
+  - 计数器和命令设置
+- 交叉引用
+- 环境
