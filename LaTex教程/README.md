@@ -1,3 +1,11 @@
+#### LaTex参考教程：
+
+- ####  [LaTeX初识 新手入门 Texlive和Texmaker学习](http://www.cnblogs.com/hellowooorld/p/6971974.html)
+
+- ####  [LaTeX视频教程免费大放送改用百度云盘](http://www.latexstudio.net/archives/7202)
+
+- ####  [请问TeX，LaTeX，TeX live以及TeX studio之间是什么关系？](https://www.zhihu.com/question/37860459)
+
 #### LaTex文档的基本结构、编译和调试、命令符号的输入（如%，{..}等等）
 
 1. 用于选择调用那个模板，比如article（用于文章），book（用于书籍），report（用于学术报告），letter（用于信件）:
