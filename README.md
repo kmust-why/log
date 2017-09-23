@@ -220,3 +220,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # PostgreSQL开发入门
 
 - http://blog.csdn.net/zm_21/article/details/19486869
+
+# 微软office模板
+- http://office.mmais.com.cn/List.shtml?cat=WORD&tag=13
