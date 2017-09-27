@@ -41,9 +41,6 @@
 # 昆明理工大学图书馆 #
 - http://www.lib.kmust.edu.cn/kmustlib/
 
-# centos7最小化系统安装设置IP(ifconfig找不到) #
-- http://jingyan.baidu.com/article/4853e1e5641c771909f72617.html
-
 # 微信网页版 # 
 - https://wx2.qq.com/
 
@@ -61,9 +58,6 @@ http://www.osyunwei.com/archives/7829.html
 
 # 谁能给我解释一下 “51单片机” 和 “zigbee” 、 “cc2530芯片” 之间的关系？ #
 - https://zhidao.baidu.com/question/135289204607515325.html
-
-# django1.8教程-从零开始 #
-- http://www.tuicool.com/articles/RrYfYfe
 
 # 有什么好的django开源项目值得参考？ #
 - https://www.zhihu.com/question/20176461
