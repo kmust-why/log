@@ -217,3 +217,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 
 # 微软office模板
 - http://office.mmais.com.cn/List.shtml?cat=WORD&tag=13
+
+# 参考文献管理工具
+
