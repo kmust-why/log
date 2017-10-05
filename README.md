@@ -226,3 +226,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # centos 7安装pycharm
 - http://blog.csdn.net/zongyimin/article/details/71605223
 
+# centos7下安装sublime3
+- http://blog.csdn.net/q2826621520/article/details/53782103
+
