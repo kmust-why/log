@@ -223,3 +223,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # Windows下安装python2和python3双版本
 - http://www.cnblogs.com/yyds/p/6080826.html
 
+# centos 7安装pycharm
+- http://blog.csdn.net/zongyimin/article/details/71605223
+
