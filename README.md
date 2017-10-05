@@ -220,3 +220,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 
 # 参考文献管理工具
 
+# Windows下安装python2和python3双版本
+- http://www.cnblogs.com/yyds/p/6080826.html
+
