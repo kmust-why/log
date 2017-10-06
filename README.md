@@ -232,3 +232,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # CentOS下MySQL的彻底卸载
 - http://blog.csdn.net/typa01_kk/article/details/49057073
 
+# centos7 安装mysql--python模块出现EnvironmentError: mysql_config not found和error: command 'gcc' failed with exit status 1
+- http://www.cnblogs.com/zhanglong8681/p/7052878.html
+
