@@ -229,3 +229,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # centos7下安装sublime3
 - http://blog.csdn.net/q2826621520/article/details/53782103
 
+# CentOS下MySQL的彻底卸载
+- http://blog.csdn.net/typa01_kk/article/details/49057073
+
