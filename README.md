@@ -235,3 +235,13 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 # centos7 安装mysql--python模块出现EnvironmentError: mysql_config not found和error: command 'gcc' failed with exit status 1
 - http://www.cnblogs.com/zhanglong8681/p/7052878.html
 
+# Ubuntu 16.04下安装MySQL
+- http://www.linuxidc.com/Linux/2017-06/144805.htm
+
+
+# ubuntu安装EnvironmentError: mysql_config not found错误
+- http://blog.csdn.net/ping523/article/details/54289398
+
+
+
+
