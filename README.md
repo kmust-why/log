@@ -187,6 +187,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Windows下安装python2和python3双版本
 - http://www.cnblogs.com/yyds/p/6080826.html
 
+## Windows环境下python2.7安装mysql-python
+- http://blog.csdn.net/lcr_happy/article/details/73252819
+
 
 
 
