@@ -190,6 +190,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Windows环境下python2.7安装mysql-python
 - http://blog.csdn.net/lcr_happy/article/details/73252819
 
+## 专利查询网站
+- http://cpquery.sipo.gov.cn/
+
 
 
 
