@@ -193,6 +193,15 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## 专利查询网站
 - http://cpquery.sipo.gov.cn/
 
+## R镜像
+- https://cran.r-project.org/mirrors.html
+
+## R-网易云课堂
+- http://study.163.com/category/r?utm_source=baidu&utm_medium=cpc&utm_campaign=affiliate&utm_term=IT-394&utm_content=SEM
+
+## R语言基础
+- http://www.imooc.com/video/10650
+
 
 
 
