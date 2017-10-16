@@ -202,6 +202,12 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## R语言基础
 - http://www.imooc.com/video/10650
 
+## PyQt5手册
+- http://pyqt.sourceforge.net/Docs/PyQt5/index.html
+
+## Python3下安装Scrapy 
+- http://www.cnblogs.com/Wananbo/p/6093969.html
+
 
 
 
