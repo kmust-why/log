@@ -175,7 +175,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## **朱有鹏**给你分享了文件
 - https://eyun.baidu.com/enterprise/share/init?cid=8272060746427218340&uk=672611650&sid=201610218964618146&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0
 
-
 ## PostgreSQL开发入门
 - http://blog.csdn.net/zm_21/article/details/19486869
 
@@ -208,7 +207,8 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Python3下安装Scrapy 
 - http://www.cnblogs.com/Wananbo/p/6093969.html
 
-## https://cn.bing.com/
+## 有求必应搜索
+- https://cn.bing.com/
 
 
 
