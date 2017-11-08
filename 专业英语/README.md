@@ -94,4 +94,25 @@
 #### 硕士论文：
 - 50篇参考文献，其中英文文献15篇以上
 
+#### 科技文献检索方法
+'''
+1.首先你要了解所查科技文献的内容。也就是你想查哪篇文章，至少要知道文章的题目，或者还要了解文章的出处、作者、出版的时间等等内容。
+2.根据所查文献，选择相应的检索平台。
+3.根据文章的题目、作者、出版的时间以及文章的出处来确定检索的范围，也就是输入正确的检索词。
+4.实施检索。
+5.获得检索结果。
+6.下载相应的文章。
+7.对检索结果的评价和分析。
+'''
+
+'''
+1. First of all, you have to understand the contents of the scientific and technological literature examined. That is, you want to check which article, at least to know the title of the article, or also understand the source of the article, the author, the time of publication and so on.
+2. According to the literature, select the appropriate search platform.
+3. According to the title of the article, the author, the time of publication and the source of the article to determine the scope of the search, that is, enter the correct search terms.
+4. Implement search.
+5. Get the results of the search.
+6. Download the article.
+7. Evaluation and analysis of the search results.
+'''
+
 
