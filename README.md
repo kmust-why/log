@@ -210,6 +210,14 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## 有求必应搜索
 - https://cn.bing.com/
 
+## 莫烦PYTHON：Matplotlib教程、python教程等
+- https://morvanzhou.github.io/
+
+## 易百教程：包含PostgreSQL教程、numpy教程、python教程等
+- http://www.yiibai.com/
+
+## RUNOOB.COM：JavaScript教程、HTML教程等
+- http://www.runoob.com/
 
 
 
