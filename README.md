@@ -225,6 +225,12 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## STM32的cube开发
 - http://www.stm32cube.com/
 
+## STM32CubeMX介绍、下载与安装
+- http://blog.csdn.net/ybhuangfugui/article/details/52225736
+
+## stm32论坛（基本啥资料都能下载到）
+- www.stmcu.org/
+
 
 
 
