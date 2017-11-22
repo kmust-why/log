@@ -163,7 +163,6 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## pyQt4 安装
 - http://blog.csdn.net/lainegates/article/details/8656102
 
-
 ## PyQt5的安装要和Python的版本对应起来
 - http://www.w2bc.com/article/219224
 
@@ -222,6 +221,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 
 ## RGB颜色值与十六进制颜色码转换工具
 - http://www.sioe.cn/yingyong/yanse-rgb-16/
+
+## STM32的cube开发
+- http://www.stm32cube.com/
 
 
 
