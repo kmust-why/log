@@ -231,6 +231,8 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## stm32论坛（基本啥资料都能下载到）
 - www.stmcu.org/
 
+## 论文到cnki查
+## 专利到知网查
 
 
 
