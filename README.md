@@ -232,7 +232,14 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 - www.stmcu.org/
 
 ## 论文到cnki查
+
 ## 专利到知网查
+
+## axure原型制作
+- https://www.axure.com.cn/
+
+## axure原型发布
+- https://share.axure.com/
 
 
 
