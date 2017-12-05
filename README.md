@@ -245,6 +245,12 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## axure破解码
 - http://blog.csdn.net/hejinde/article/details/54981845
 
+## Django（三） ORM 数据库操作
+- http://blog.csdn.net/fgf00/article/details/53678205
+
+## Django之模板语言
+- https://www.cnblogs.com/CongZhang/p/5944463.html
+
 
 
 
