@@ -251,6 +251,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Django之模板语言
 - https://www.cnblogs.com/CongZhang/p/5944463.html
 
+## 梦源实验室(开源的逻辑分析仪)
+- http://www.dreamsourcelab.com/
+
 
 
 
