@@ -254,6 +254,8 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## 梦源实验室(开源的逻辑分析仪)
 - http://www.dreamsourcelab.com/
 
+## 解决依赖的问题
+- http://search.maven.org/
 
 
 
