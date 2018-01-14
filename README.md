@@ -263,6 +263,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Maven项目管理工具
 - http://blog.csdn.net/jiuqiyuliang/article/details/45390313
 
+## Endnote 基本使用教程 - CSDN博客
+- http://blog.csdn.net/u012878602/article/details/53908414
+
 
 
 
