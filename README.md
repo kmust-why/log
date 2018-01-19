@@ -293,7 +293,14 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## postgresql字符类型
 - http://www.yiibai.com/manual/postgresql/datatype-character.html
 
-## 
+## Bootstrap 3 Axure 组件
+- http://www.pmdaniu.com/rplib/detail/860
+
+## font-awesome字体样式
+- http://www.bootcss.com/p/font-awesome/
+
+## echarts报表等制作
+- http://echarts.baidu.com/
 
 
 
