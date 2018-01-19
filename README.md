@@ -272,6 +272,15 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Endnote 基本使用教程
 - http://blog.csdn.net/u012878602/article/details/53908414
 
+## Django1.10文档
+- http://www.cnblogs.com/feixuelove1009/p/5910384.html
+
+## Django 1.8.2 文档
+- http://python.usyiyi.cn/documents/django_182/index.html
+
+## 用STM32CubeMX创建FreeRTOS项目
+
+
 
 
 
