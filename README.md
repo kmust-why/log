@@ -302,6 +302,21 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## echarts报表等制作
 - http://echarts.baidu.com/
 
+## csdn社区
+- https://www.csdn.net/
+
+## Hadoop的HA机制
+- http://blog.csdn.net/pangjiuzala/article/details/50187665
+
+## hadoop(二):hdfs HA原理及安装
+- https://www.cnblogs.com/tgzhu/p/5790565.html
+
+## Hadoop HA高可用集群搭建（2.7.2）
+- http://blog.csdn.net/dr_guo/article/details/50975851
+
+## Centos6.4安装配置mysql
+- https://www.cnblogs.com/xizhunet/p/5133511.html
+
 
 
 
