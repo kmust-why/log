@@ -279,6 +279,18 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 - http://python.usyiyi.cn/documents/django_182/index.html
 
 ## 用STM32CubeMX创建FreeRTOS项目
+- https://www.cnblogs.com/zhaitao85/p/4642071.html
+
+## UrlEncode编码/解码
+- http://tool.chinaz.com/tools/urlencode.aspx?qq-pf-to=pcqq.c2c
+
+## 网站流量统计分析系统
+- https://web.umeng.com/main.php?c=user&a=index
+
+## 【项目管理和构建】十分钟教程，eclipse配置maven + 创建maven项目（三）
+- http://blog.csdn.net/jiuqiyuliang/article/details/46053543
+
+## 
 
 
 
