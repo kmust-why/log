@@ -266,6 +266,12 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## Endnote 基本使用教程 - CSDN博客
 - http://blog.csdn.net/u012878602/article/details/53908414
 
+## BootStrap可视化布局系统
+- http://www.bootcss.com/p/layoutit/
+
+## Endnote 基本使用教程
+- http://blog.csdn.net/u012878602/article/details/53908414
+
 
 
 
