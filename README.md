@@ -290,6 +290,9 @@ http://www.hch518.com/Article/PCBbantushejidejiben_1.html
 ## 【项目管理和构建】十分钟教程，eclipse配置maven + 创建maven项目（三）
 - http://blog.csdn.net/jiuqiyuliang/article/details/46053543
 
+## postgresql字符类型
+- http://www.yiibai.com/manual/postgresql/datatype-character.html
+
 ## 
 
 
